@@ -1,2 +1,2 @@
-2 2
-AB CD
+8
+XOOOXOOX
