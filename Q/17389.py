@@ -17,8 +17,7 @@
 
 N = int(input())
 S = input()
-tp = 0
-bp = 0
+tp,bp = 0,0
 for i in range(N) :
     if S[i] == 'X' :
         bp = 0
@@ -26,3 +25,11 @@ for i in range(N) :
         tp += (i+1) + bp
         bp = bp + 1
 print(tp)
+
+#  인강
+# for idx,OX in enumerate(S):
+#     if OX =='O':
+#         tp+=idx+1+bp
+#         bp+=1
+#     else :
+#         bp =0
